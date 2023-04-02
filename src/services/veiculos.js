@@ -16,6 +16,22 @@ export default {
     excluir: (id) => {
         console.log(id)
         return http.delete('/' + id)
-    }
+    },
 
+    listarVeiculosNaoVendidos: () => {
+        return http.get('/veiculosNaoVendidos')
+    },
+
+    listarVeiculosPorDecada: () => {
+        return http.get('/veiculosPorDecada')
+    },
+
+    listarVeiculosPorFabricante: () => {
+        return http.get('/veiculosPorFabricante')
+    },
+
+    getVeiculosUltimaSemana: () => {
+        console.log('entrou')
+        return http.get('/veiculosUltimaSemana')
+    },
 }
