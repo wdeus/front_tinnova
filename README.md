@@ -1,6 +1,6 @@
 <h1  >API REST - Cadastro de veículos</h1>
  <hr>
-<p align="left">O projeto se baseia em uma SPA que consome uma api para cadastro de veículo. A apise encontra no seguinte repositório: https://github.com/wdeus/api_tinnova </p>
+<p align="left">O projeto se baseia em uma SPA que consome uma api para cadastro de veículo. A api se encontra no seguinte repositório: https://github.com/wdeus/api_tinnova </p>
 
 <h2>Tecnologias utilizadas</h2>
 <div style="display: inline_block">
